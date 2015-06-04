@@ -1,0 +1,32 @@
+{
+"configs" : [
+  {
+"server" : "pro-jp1.fanque.wang",
+"server_port" : 10237,
+"password" : "qq1716366880",
+"method" : "aes-256-cfb",
+"remarks" : ""}
+,
+  {
+"server" : "116.251.210.208",
+"server_port" : 51080,
+"password" : "fuck",
+"method" : "aes-256-cfb",
+"remarks" : "yanqi"}
+,
+  {
+"server" : "us.ssserver.pw",
+"server_port" : 8989,
+"password" : "94314440",
+"method" : "aes-256-cfb",
+"remarks" : "ishadowsocks"}
+
+],
+"index" : 2,
+"global" : false,
+"enabled" : true,
+"shareOverLan" : false,
+"isDefault" : false,
+"localPort" : 1080,
+"pacUrl" : null,
+"useOnlinePac" : false}
