@@ -8,6 +8,8 @@ import zlib
 import re
 import subprocess
 import time
+import msvcrt
+
 def main():
     try:
         url = 'http://www.ishadowsocks.com'
@@ -75,6 +77,8 @@ def main():
         start = time.time()
         subprocess.call('Ss.exe')
         print 'Shadowsocks running time:%ss' % (time.time() - start)
+        msvcrt.getch()
+
     except Exception, e:
         raise e
 
